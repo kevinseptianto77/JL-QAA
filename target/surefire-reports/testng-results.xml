@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11566" started-at="2022-04-16T04:17:37Z" finished-at="2022-04-16T04:17:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="11566" started-at="2022-04-16T04:17:37Z" finished-at="2022-04-16T04:17:49Z">
+      <class name="qaautomation.march2022.APITestAfterRefactor">
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="login" is-config="true" duration-ms="3290" started-at="2022-04-16T04:17:37Z" finished-at="2022-04-16T04:17:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDashboardAPI()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="testDashboardAPI" duration-ms="1946" started-at="2022-04-16T04:17:41Z" finished-at="2022-04-16T04:17:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardAPI -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="login" is-config="true" duration-ms="1667" started-at="2022-04-16T04:17:43Z" finished-at="2022-04-16T04:17:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDashboardWithoutParam()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="testDashboardWithoutParam" duration-ms="1530" started-at="2022-04-16T04:17:44Z" finished-at="2022-04-16T04:17:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutParam -->
+        <test-method status="PASS" signature="login()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="login" is-config="true" duration-ms="1744" started-at="2022-04-16T04:17:46Z" finished-at="2022-04-16T04:17:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="testDashboardWithoutToken()[pri:0, instance:qaautomation.march2022.APITestAfterRefactor@2d1dee39]" name="testDashboardWithoutToken" duration-ms="1309" started-at="2022-04-16T04:17:48Z" finished-at="2022-04-16T04:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDashboardWithoutToken -->
+      </class> <!-- qaautomation.march2022.APITestAfterRefactor -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
