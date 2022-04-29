@@ -41,6 +41,8 @@ public class CommonPageTest extends BaseWebTest {
 		commonPage.inputSearchYopmail(searchs);
 		commonPage.clickSearchButton();
 		commonPage.switchIFrame("ifmail");
+		
+		// text berbeda tergantung email pertama yang didapat.
 		String actualText = commonPage.getYopmailText();
 		String expectedText = "Thanks for a smooth return, Invygo_Automation";
 		Assert.assertTrue(actualText.contains(expectedText));

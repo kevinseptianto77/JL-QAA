@@ -55,6 +55,7 @@ public class CommonPage extends BasePage {
 		js.executeScript(script);
 	}
 	
+	// iframe section --------------
 	public void inputSearchYopmail(String searchs) {
 		setText(searchYopmail, searchs);
 	}

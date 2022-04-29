@@ -16,7 +16,7 @@ public class APITest {
 		RestAssured.baseURI = "https://api-staging-builder.engineer.ai";
 		// String loginPayload = "{email: \"jogidemo321@gmail.com\", password:
 		// \"builder123\"}";
-		String loginPayload = "{\"email\": \"jogidemo321@gmail.com\", \"password\": \"builder123\"}";
+		String loginPayload = "{\"email\": \"testlabs@gmail.com\", \"password\": \"builder123\"}";
 		Response responseLogin = RestAssured.given().contentType("application/json").body(loginPayload).when()
 				.post("/users/sign_in");
 		token = responseLogin.jsonPath().get("user.authtoken");
