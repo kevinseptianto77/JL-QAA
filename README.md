@@ -27,7 +27,7 @@ PATH :
 # Tugas 5 Automation Register for Kolak Project
 
 Disini menggunakan faker untuk merandom email dan nomor telepon, lalu menggunakan RestAssured dengan baseurl website
-kolakproject lalu membuat string sesuai dengan kolom dan variabel yang dibutuhkan dan membuat response untuk memasukan data 
-pada string.
+kolakproject lalu membuat string sesuai dengan kolom dan variabel yang dibutuhkan dan membuat response untuk memasukan data
+string yang sudah dibuat.
 
 PATH : JL-QAA/src/test/java/qaautomation/march2022/RegisterKolak.java
