@@ -18,11 +18,13 @@ public class RegisterKolak {
 		String newEmail = faker.name().username() + "@gmail.com" ;
 		String newPhone = faker.phoneNumber().cellPhone();
 		
-		RestAssured.baseURI = "https://kolakproject.herokuapp.com";
-		String register = "{\"username\": \"kevinswa\", \"password\": \"asd1234\", \"email\": \"newEmail\", \"phonenumber\": \"newPhone\"}";
-		Response responseRegister = RestAssured.given().contentType("application/json").body(register).when()
-				.post("/register");
+		System.out.println(newEmail);
+		System.out.println(newPhone);
 		
+		RestAssured.baseURI = "https://kolakproject.herokuapp.com";
+		String register = "{\"username\": \"kevinswa\", \"password\": \"asd1234\", \"email\": \"" + newEmail + "\", \"phonenumber\": \"" + newPhone + "\"}";
+		Response responseRegister = RestAssured.given().contentType("application/json").body(register).when()
+			.post("/register");
 	}
 
 }
