@@ -53,3 +53,5 @@ log.error(jsonData.data.email) -- > ini digunakan untuk mendapatkan log error be
 log.error(jsonData.data.first_name) ini digunakan untuk mendapatkan log error berupa first name.
 log.error(jsonData.data.last_name) ini digunakan untuk mendapatkan log error berupa last name.
 log.error(jsonData.data.id.toString()) ini digunakan untuk mendapatkan log error berupa id, dikarenakan type data id ini berupa integer maka harus diubah ke string terlebih dahulu karena data yang diambil diubah dalam bentuk string.
+
+Path : login.jmx
