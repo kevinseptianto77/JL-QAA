@@ -10,7 +10,7 @@ public class CommonPageTest extends BaseWebTest {
 
 	CommonPage commonPage = new CommonPage(driver, explicitWait);
 
-	/*@Test
+	@Test
 	public void testSwitching() {
 		commonPage.openNewTab();
 		commonPage.switchWindow(1);
@@ -29,7 +29,7 @@ public class CommonPageTest extends BaseWebTest {
 		commonPage.openUrl("https://testautomasi.com");
 		commonPage.runJSCommand("window.scrollBy(0,1000)");
 		TestUtility.hardWait(3);
-	}*/
+	}
 
 	@Test
 	public void testYopmail() {
